@@ -1,10 +1,10 @@
 <h1>Server simulator built with Nodejs, JavaScript, HTML, CSS and MongoDB as Database</h1>
 
-<h2>The project is deployed to Heroku, you can find it here:</h2><span style="color:blue"><strong>https://shielded-shore-87531.herokuapp.com/servers</strong></span>
+<h2>The project is deployed to Heroku, you can find it here:</h2><p style="color:blue"><strong>https://shielded-shore-87531.herokuapp.com/servers</strong></p>
 
-<p><strong>How to run it</strong></p>
+<p><strong>How to run it:</strong></p>
 
-<p>Set up your node environment, donwload the project and run in the console < node app.js >, make sure you have installed mongoDB</p>
+<p>Set up your node environment, donwload the project and run in the console <em>node app.js</em>, make sure you have installed mongoDB</p>
 
 <p><strong>How this project is structured:</strong></p>
 
