@@ -1,0 +1,22 @@
+body {
+    background: #abbaab; 
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab); 
+    background: linear-gradient(to right, #ffffff, #abbaab);
+}
+
+.container.main {
+    margin-top: 7em;
+}
+
+#delete {
+    display: inline;
+    position: absolute;
+}
+
+#edit {
+    margin-left: 77%;
+}
+
+#message {
+    margin-top: 100px;
+}

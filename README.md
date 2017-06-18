@@ -1,2 +1,1 @@
-# serverAppNodejs
-Server simulator app
+Server simulator build with Nodejs, JavaScript, HTML, CSS and MongoDB as Database

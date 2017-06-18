@@ -1,0 +1,28 @@
+<% include ./partials/header %>
+
+<div class="ui main text container segment">
+    <div class="ui huge header"><%= server.title %></div>
+    <div class="ui top attached">
+        <div class="item">
+            <img class="ui rounded centered image" src="<%= server.image %>">
+            <div class="content">
+                <span><%=server.created%></span>
+            </div>
+            <div class="description">
+                <p><strong>Server Model: </strong><%=server.model%></p>
+                <p><strong>Serial Number: </strong><%=server.serialNumber%></p>
+                <p><strong>Server Processor: </strong><%=server.processor%></p>
+                <p><strong>Server Memory: </strong><%=server.memory%></p>
+                <p><strong>Server Capacity: </strong><%=server.hd%></p>
+                <p><strong>Server Max Temperature(C): </strong><%=server.temperature%></p>
+                <p><strong>Server Power Status: </strong><%=server.powerStatus%></p>
+            </div>
+            <a id="edit" class="ui inverted orange button" href="/servers/<%= server._id %>/edit">Edit</a>
+            <form id="delete" action="/servers/<%= server._id %>?_method=DELETE" method="POST">
+                <button class="ui inverted red button">Delete</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<% include ./partials/footer %>

@@ -1,0 +1,60 @@
+<% include ./partials/header %>
+
+<div class="ui main text container segment">
+    <div class="ui huge header">New Server</div>
+    <form class="ui form" action="/servers" method="POST">
+        <div class="field">
+            <label>Title</label>
+            <input type="text" name="title" placeholder="title">
+        </div>
+        <div class="field">
+            <label>Image</label>
+            <input type="text" name="image" placeholder="image url">
+        </div>
+        <div class="field">
+            <label>Model</label>
+            <input type="text" name="model" placeholder="IBM 123">
+        </div>
+        <div class="field">
+            <label>Serial Number</label>
+            <input type="text" name="serialNumber" placeholder="3253465363">
+        </div>
+        <div class="field">
+            <label>Processor</label>
+            <input type="text" name="processor" placeholder="i7 4.3ghz">
+        </div>
+        <div class="field">
+            <label>Memory</label>
+            <input type="text" name="memory" placeholder="64GB DDR4 2500">
+        </div>
+        <div class="field">
+            <label>HD</label>
+            <input type="text" name="hd" placeholder="10 TB">
+        </div>
+        <div class="field">
+            <label>Temperature</label>
+            <input type="text" name="temperature" placeholder="Max temperature: 55C">
+        </div>
+         
+          <div style="position:relative;width:200px;height:25px;border:0;padding:0;margin:0;">
+              <select style="position:absolute;top:0px;left:0px;width:200px; height:25px;line-height:20px;margin:0;padding:0;"
+                      onchange="document.getElementById('displayValue').value=this.options[this.selectedIndex].text;">
+                <option></option>
+                <option value="on">On</option>
+                <option value="off">Off</option>
+              </select>
+              <input type="text" name="powerStatus" id="displayValue" 
+                     placeholder="Power Status" onfocus="this.select()"
+                     style="position:absolute;top:0px;left:0px;width:183px;width:180px\9;#width:180px;height:23px; height:21px\9;#height:18px;border:1px solid #CFCFCC;"  >
+              <input name="powerStatus" id="powerStatus" type="hidden">
+            </div>
+          
+          
+        <p align="left">
+            <input class="ui inverted green button" type="submit" value="Send"></input>
+        </p>
+        
+    </form>
+</div>
+
+<% include ./partials/footer %>

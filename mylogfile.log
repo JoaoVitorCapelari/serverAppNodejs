@@ -1,0 +1,25 @@
+{"level":"info","message":"Chill Winston, the logs are being captured 3 ways- console, file, and Loggly","timestamp":"2017-06-18T17:37:19.127Z"}
+{"level":"info","message":"the default logger with my tricked out transports is rockin this module","timestamp":"2017-06-18T17:37:19.435Z"}
+{"level":"info","message":"the default logger with my tricked out transports is rockin this module","timestamp":"2017-06-18T17:37:19.445Z"}
+{"level":"info","message":"the default logger with my tricked out transports is rockin this module","timestamp":"2017-06-18T17:37:19.449Z"}
+{"level":"info","message":"the default logger with my tricked out transports is rockin this module","timestamp":"2017-06-18T17:37:19.453Z"}
+{"level":"info","message":"Chill Winston, the logs are being captured 3 ways- console, file, and Loggly","timestamp":"2017-06-18T17:40:09.895Z"}
+{"level":"info","message":"UserSchema LOG","timestamp":"2017-06-18T17:40:10.236Z"}
+{"level":"info","message":"ServerSchema LOG","timestamp":"2017-06-18T17:40:10.249Z"}
+{"level":"info","message":"Full CRUD Routes and Logic LOGs","timestamp":"2017-06-18T17:40:10.254Z"}
+{"level":"info","message":"AuthRoutes and Logic LOGs","timestamp":"2017-06-18T17:40:10.257Z"}
+{"level":"info","message":"Chill Winston, the logs are being captured 3 ways- console, file, and Loggly","timestamp":"2017-06-18T18:20:23.552Z"}
+{"level":"info","message":"UserSchema LOG","timestamp":"2017-06-18T18:20:23.906Z"}
+{"level":"info","message":"ServerSchema LOG","timestamp":"2017-06-18T18:20:23.917Z"}
+{"level":"info","message":"Full CRUD Routes and Logic LOGs","timestamp":"2017-06-18T18:20:23.922Z"}
+{"level":"info","message":"AuthRoutes and Logic LOGs","timestamp":"2017-06-18T18:20:23.926Z"}
+{"level":"info","message":"Chill Winston, the logs are being captured 3 ways- console, file, and Loggly","timestamp":"2017-06-18T18:37:09.025Z"}
+{"level":"info","message":"UserSchema LOG","timestamp":"2017-06-18T18:37:09.355Z"}
+{"level":"info","message":"ServerSchema LOG","timestamp":"2017-06-18T18:37:09.366Z"}
+{"level":"info","message":"Full CRUD Routes and Logic LOGs","timestamp":"2017-06-18T18:37:09.371Z"}
+{"level":"info","message":"AuthRoutes and Logic LOGs","timestamp":"2017-06-18T18:37:09.374Z"}
+{"level":"info","message":"Chill Winston, the logs are being captured 3 ways- console, file, and Loggly","timestamp":"2017-06-18T18:40:08.489Z"}
+{"level":"info","message":"UserSchema LOG","timestamp":"2017-06-18T18:40:08.828Z"}
+{"level":"info","message":"ServerSchema LOG","timestamp":"2017-06-18T18:40:08.841Z"}
+{"level":"info","message":"Full CRUD Routes and Logic LOGs","timestamp":"2017-06-18T18:40:08.846Z"}
+{"level":"info","message":"AuthRoutes and Logic LOGs","timestamp":"2017-06-18T18:40:08.850Z"}

@@ -1,0 +1,35 @@
+<% include ./partials/header %>
+
+<div class="ui main text container">
+    <div class="ui huge header">RESTful Server App</div>
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+                <% servers.forEach(function(server){ %>
+                <div class = "item">
+                    <div class="image" >
+                        <img src="<%= server.image %>">
+                    </div>
+                    <div class="content">
+                        <a class="header" href="/servers/<%= server._id %>"><%= server.title %></a>
+                        <div class="meta">
+                            <span><%=server.created%></span>
+                        </div>
+                        <div class="description">
+                            <p><strong>Model:</strong> <%=server.model%></p>
+                            <p><strong>Power Status:</strong> <%=server.powerStatus%></p>
+                            <p><strong>Submited by:</strong> <%=server.author.username%></p>
+                        </div>
+                        <div class="extra">
+                            <a class="ui floated inverted violet button" href="/servers/<%= server._id %>">Details 
+                            <i class="right chevron icon"></i>
+                            </a>
+                        </div>
+                    </div>
+              </div>
+            <% });%>
+        </div>
+    </div>
+</div>
+
+
+<% include ./partials/footer %>
